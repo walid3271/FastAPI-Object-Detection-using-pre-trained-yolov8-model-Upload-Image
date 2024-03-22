@@ -4,7 +4,7 @@ from PIL import Image
 from fastapi import FastAPI, UploadFile, File
 from ultralytics import YOLO
 
-Model = YOLO('FastAPI-Object-Detection-using-pre-trained-yolov8-model-Upload-Image/AI_Model/uddokta_v11.1.pt')
+Model = YOLO('FastAPI-Object-Detection-using-pre-trained-yolov8-model-Upload-Image/AI_Model/your_model.pt')
 
 app = FastAPI()
 
